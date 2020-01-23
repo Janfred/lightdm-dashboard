@@ -12,9 +12,9 @@ body {
   width: calc(100% - 20px);
   margin: 10px auto 0;
   padding: 0;
-  padding-top: 40px;
   box-sizing: content-box;
   -moz-box-sizing: content-box;
+  font-size: 10pt;
 }
 h1 {
   display: none;
@@ -26,9 +26,7 @@ h1 {
   width: 50%;
   height: 50vh;
   float: left;
-  padding: 10px;
-  padding-bottom: 50px;
-  margin-top: -40px;
+  padding: 2px;
 }
 .widget .well {
   overflow: hidden;
