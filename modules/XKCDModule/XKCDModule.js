@@ -13,7 +13,8 @@ XKCDModule.prototype.update = function(data) {
         $('<img>')
             .attr('src', data.src)
             .attr('alt', data.alt)
-            .attr('title', data.title)
+            .attr('title', data.title),
+        $('<div>').text(data.title)
     );
 }
 
