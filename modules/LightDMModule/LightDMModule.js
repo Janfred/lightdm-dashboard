@@ -5,6 +5,8 @@ function LightDMModule() {
     }
     this.loadStylesheet();
 
+    $('#panel').show();
+
     $('#panel').append(this.generateLoginForm());
     this.login_field.focus();
 

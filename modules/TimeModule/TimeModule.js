@@ -1,5 +1,6 @@
 function TimeModule() {
     $('#panel')
+        .show()
         .append($('<span>')
             .addClass('navbar-right navbar-text')
             .attr('id', 'time')

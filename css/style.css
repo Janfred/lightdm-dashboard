@@ -34,6 +34,9 @@ h1 {
   overflow: hidden;
   height: 100%;
 }
+.widget .well.MensaModule, .widget .well.GW2Module {
+  overflow-y: auto;
+}
 h2 {
   font-size: 120%;
 }
