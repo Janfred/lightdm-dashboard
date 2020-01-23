@@ -11,7 +11,7 @@ PatchFridayModule.prototype.update = function(data) {
     this.well.append(
         $('<h2>').text(data.title),
         $('<img>')
-            .attr.('src', data.src)
+            .attr('src', data.src)
     );
 }
 
