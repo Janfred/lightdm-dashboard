@@ -3,7 +3,7 @@
 }
 .BSAGModule table,
 .BSAGModule td::first-line {
-    font-size: 28pt;
+    font-size: 12pt;
 }
 .BSAGModule th {
     text-align: center;
@@ -33,6 +33,7 @@
 }
 .BSAGModule .line1,
 .BSAGModule .lineN1,
+.BSAGModule .line1E,
 .BSAGModule .line25,
 .BSAGModule .line53,
 .BSAGModule .line62,
