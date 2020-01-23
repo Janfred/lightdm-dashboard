@@ -24,7 +24,7 @@ h1 {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   width: 50%;
-  height: 50vh;
+  height: calc(50vh - 14px);
   float: left;
   padding: 2px;
 }
