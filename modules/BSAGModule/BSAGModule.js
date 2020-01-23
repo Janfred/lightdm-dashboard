@@ -51,7 +51,7 @@ BSAGModule.prototype.paint = function() {
             }
             var dir = this.data[i].directions[k].direction;
             // to save some space, restrict the direction to the first word
-            dir = dir.split(" ", 1)[0];
+            //dir = dir.split(" ", 1)[0];
             $('td', elements[i]).eq(2*k).text(dir);
             $('td', elements[i]).eq(2*k+1).text(connections.join("\u200B,\u00A0"));
         }
